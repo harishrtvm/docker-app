@@ -1,0 +1,6 @@
+FROM python:3.6
+RUN  mkdir /code
+COPY . /code/
+RUN  pip install -r /code/Requirements.txt
+EXPOSE 8080
+CMD ["python", "/code/python-docker-sample-app.py"]
