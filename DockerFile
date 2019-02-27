@@ -4,4 +4,3 @@ COPY . /code/
 WORKDIR /code
 RUN  pip install -r requirements.txt
 EXPOSE 8080
-CMD ["python", "/code/python-docker-sample-app.py"]
