@@ -6,7 +6,7 @@ app = Flask(__name__)
 def test():
     content = request.json
     if content != None:
-        return "Success"
+        return "Successfully pushed"
     else:
         return "Invalid content"
 
